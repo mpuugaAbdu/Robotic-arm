@@ -1,0 +1,22 @@
+# Arduino build output
+build/
+*.hex
+*.elf
+*.bin
+*.map
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Local development sketches retained outside the published branch contents
+sampleCode/
+test/
+test_servo_esp32/
+
+# Local secrets
+arduino_secrets.h
+secrets.h
